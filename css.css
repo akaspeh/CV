@@ -1,0 +1,179 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+*{
+  font-family: Lato;
+}
+
+.h2_header_Links, .h2_header_skills, .h2_header_expirience, h2_header_education, h2_header_language{
+  text-decoration: underline;
+}
+
+body{
+  font-size: 14px;
+  line-height: 15px;
+  display:flex;
+  justify-content: center;
+  height: 100vh; 
+  margin: 0; 
+}
+
+.profile_pick{
+  width: 10%; 
+  height: auto; 
+  margin-top: 40px;
+}
+
+.subtitle_work{
+  color:rgb(163, 163, 163);
+}
+
+.details .contact-icon{
+  vertical-align: middle;
+  width: 10%; 
+  height: auto; 
+}
+
+.details {
+  background: rgb(22, 22, 22);
+  display: flex;
+  color:rgb(163, 163, 163);
+  width: 100%; 
+  height: 40px; 
+  border-top: 2px solid #383838; 
+  padding-top: 3px; 
+}
+
+.addres, .phone, .mail {
+   height: 100%;
+   text-align: center;
+   margin-top:3px;
+}
+
+.phone{
+    width: 34%;
+ }
+ 
+ .addres, .mail{
+    width: 33%;
+ }
+
+.div-wrapper{
+  display: flex;
+  width: 100%; 
+  margin-top: 20px;
+  margin-bottom: 50 px;
+}
+
+.cv_left{
+  margin-left:20px;
+  width: 70%;
+}
+.cv_right{
+  width: 30%;
+}
+
+
+.title_cv{
+  background: rgb(22, 22, 22);
+  width: 100%; 
+  height: 230px; 
+}
+
+.r_profile_pick{
+  text-align: center;
+  color:aliceblue;
+  margin-bottom: 10px;
+}
+
+.name, .subtitle_work{
+  margin: 10px 0;
+}
+ 
+.TEAMWORK-list{
+  margin-left: 20px;
+        padding-left: 0;
+        list-style-type: disc;
+}
+.TEAMWORK-list li{
+  margin-bottom: 8px;
+}
+
+.cv_left{
+  margin-top: 60px;
+  border-right: 5px solid #000; 
+  padding-right: 10px; 
+  width: 70%;
+}
+
+.cv_right{
+  margin-top: 60px;
+  margin-left: 20px;
+  width: 30%;
+}
+
+.iconLink img {
+  width: 60px; 
+  gap: 10px; 
+}
+
+.h2_header_Links {
+  margin-bottom: 15px; 
+}
+
+.info__text{
+  margin-bottom: -10px;
+}
+
+.print_button{
+  margin-top: 100px;
+  margin-left:70px;
+}
+
+@media print {
+  .print_button {
+    display: none;
+  }
+  
+  .main_class {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+@media (max-width: 570px) {
+  .print_button {
+      display: none; /* Приховати блок на малих екранах */
+  }
+}
+
+@media (max-width: 570px) {
+  /* Сховати елементи, які не підходять для малих екранів */
+  .div-wrapper {
+    flex-direction: column; /* Змінити напрямок flex на колонку */
+  }
+
+  .details, .cv_left, .cv_right, .title_cv {
+    width: 100%; /* Зробити ширину елементів 100% на малих екранах */
+  }
+
+
+  .cv_left{
+    border-right: 0px solid #fcfcfc; 
+    padding-right: 10px; 
+    margin-left:20px;
+  }
+
+  .cv_left, .cv_right {
+    margin-top: 0px; /* Змінити відступи для кращого вигляду на малих екранах */
+  }
+
+  .print_button {
+    display: none; /* Приховати кнопку друку на малих екранах */
+  }
+
+  /* Додаткові зміни за необхідності... */
+}
