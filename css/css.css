@@ -7,6 +7,7 @@
   font-family: Lato;
 }
 
+
 .h2_header_Links, .h2_header_skills, .h2_header_expirience, .h2_header_education, .h2_header_language{
   text-decoration: underline;
 }
@@ -127,26 +128,33 @@ body{
   margin-bottom: -10px;
 }
 
+.buttons{
+  margin-top: 20px;
+  margin-left:10px;
+}
+
+.translateButton{
+}
+
 .print_button{
   margin-top: 100px;
-  margin-left:70px;
+  margin-left:1px;
 }
+
 
 @media print {
   .print_button {
     display: none;
+  }
+
+  .translateButton {
+    display: none; /* Приховати кнопку друку на малих екранах */
   }
   
   .main_class {
     position: absolute;
     left: 0;
     top: 0;
-  }
-}
-
-@media (max-width: 570px) {
-  .print_button {
-      display: none; /* Приховати блок на малих екранах */
   }
 }
 
@@ -170,10 +178,4 @@ body{
   .cv_left, .cv_right {
     margin-top: 0px; /* Змінити відступи для кращого вигляду на малих екранах */
   }
-
-  .print_button {
-    display: none; /* Приховати кнопку друку на малих екранах */
-  }
-
-  /* Додаткові зміни за необхідності... */
 }
