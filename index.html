@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <style>
+        .ukrainian-content {
+            display: none;
+        }
+    </style>
     <link rel="stylesheet" href="./css/css.css">
     <script src="https://kit.fontawesome.com/ca4193dbef.js" crossorigin="anonymous"></script>
 </head>
@@ -14,15 +19,22 @@
         <div class="title_cv">
             <div class="r_profile_pick">
                 <img class="profile_pick" src="css/profile.png" alt="profile_pick">
-                <h2 class="name">
+                <h2 class="name english-content">
                     RIABIN NIKITA
+                </h2>
+                <h2 class="name ukrainian-content">
+                    Рябін Нікіта
                 </h2>
                 <span class="subtitle_work">C++\Python Developer</span>
             </div>
             <div class="details">
-                    <div class="addres">
+                    <div class="addres english-content">
                         <img class="contact-icon" src="css/location.png" alt="location">
                         Kiev, Ukraine
+                    </div>
+                    <div class="addres ukrainian-content">
+                        <img class="contact-icon" src="css/location.png" alt="location">
+                        Київ, Україна
                     </div>
                     <div class="phone">
                         <img class="contact-icon" src="css/phone.png" alt="phone">
@@ -37,79 +49,153 @@
         <div class="div-wrapper">
             <div class="cv_left">
                 <div class="expiriance">
-                    <h2 class="h2_header_expirience">Experience</h2>
-                    <h3 class="TEAMWORK">
+                    <h2 class="h2_header_expirience english-content">Experience</h2>
+                    <h2 class="h2_header_expirience ukrainian-content">Досвід</h2>
+
+                    <h3 class="TEAMWORK english-content">
                         Team Project: Pacman<br>
                     </h3>
-                    <p class="info__text_dark">
+                    <h3 class="TEAMWORK ukrainian-content">
+                        Командний проєкт: Pacman<br>
+                    </h3>
+
+                    <p class="info__text_dark english-content">
                         SFML, C++
-                        <ul class="TEAMWORK-list">
-                            <li>Bots behaviour developed and embedded into the game</li>
+                        <ul class="TEAMWORK-list english-content">
+                            <li>Bots behavior was developed and embedded in game</li>
                             <li>Bounding box for all entity</li>
                             <li>Interaction with the player and the bot has been created</li>
                         </ul>
-                        You can find project by the link  
-                        <a href="https://github.com/KatanaMajesty/Pacman"> GitHub</a>
+                        <p class="info__text_dark english-content">You can find project by the link  
+                            <a class= "english-content" href="https://github.com/KatanaMajesty/Pacman"> GitHub</a>
+                        </p>
                     </p>
-                    <h3 class="TEAMWORK">
+                    <p class="info__text_dark ukrainian-content">
+                        SFML, C++
+                        <ul class="TEAMWORK-list ukrainian-content">
+                            <li>Розроблено поведінку ботів і вбудовано у гру</li>
+                            <li>Було розроблено коробка колізії для сутностей</li>
+                            <li>Розроблена взаємодія гравців з ботами в грі </li>
+                        </ul>
+                        <p class="info__text_dark ukrainian-content">Проєкт можно знайти по посиланню  
+                            <a class= "ukrainian-content" href="https://github.com/KatanaMajesty/Pacman"> GitHub</a>
+                        </p>
+                    </p>
+
+                    <h3 class="TEAMWORK english-content">
                         Team Project: BankSystem<br>
                     </h3>
-                    <p class="info__text_dark">
+                    <h3 class="TEAMWORK ukrainian-content">
+                        Командний проєкт: BankSystem<br>
+                    </h3>
+                    
+                    <p class="info__text_dark english-content">
                         Docker, Python, Redis, PostGreSQL, MongoDB
-                        <ul class="TEAMWORK-list">
+                        <ul class="TEAMWORK-list english-content">
                             <li>Developed the structure of the containers</li>
                             <li>Developed the structure of databases and their interaction</li>
                             <li>Authorization and authentication</li>
                             
                         </ul>
-                        You can find project by the link  
-                        <a href="https://github.com/akaspeh/BankSystem"> GitHub</a>
+                        <p class="info__text_dark english-content">You can find project by the link 
+                            <a class= "english-content" href="https://github.com/akaspeh/BankSystem"> GitHub</a>
+                        </p>
                     </p>
-                    <h3 class="TEAMWORK">
+
+                    <p class="info__text_dark ukrainian-content">
+                        Docker, Python, Redis, PostGreSQL, MongoDB
+                        <ul class="TEAMWORK-list ukrainian-content">
+                            <li>Розроблено архітектуру докер контейнерів</li>
+                            <li>Розроблено структуру баз даних і їх звязки між собо.</li>
+                            <li>Зроблено аунтифікацію і авторизацію</li>
+                            
+                        </ul>
+                        <p class="info__text_dark ukrainian-content">Проєкт можно знайти по посиланню 
+                            <a class= "ukrainian-content" href="https://github.com/akaspeh/BankSystem"> GitHub</a>
+                        </p>
+                    </p>
+                    <h3 class="TEAMWORK english-content">
                         Student Councile Project: IASABOT and IASA_SuggestBot<br>
                     </h3>
-                    <p class="info__text_dark">
+                    <h3 class="TEAMWORK ukrainian-content">
+                        Проєкт для студентської ради: IASABOT and IASA_SuggestBot<br>
+                    </h3>
+                    <p class="info__text_dark english-content">
                         Python, PostGre, Aiogram
-                        <ul class="TEAMWORK-list">
+                        <ul class="TEAMWORK-list english-content">
                             <li>I've developed a database structure</li>
                             <li>Created an identifier of headman of groups and reminder</li>
                             <li>I'm continuing to develop faculty analytics</li>
                         </ul>
-                        You can find project IASA_SuggestBot by the link  
-                        <a href="https://github.com/dimaplel/telegram-suggestions-bot"> GitHub</a>
-                        IASABOT is still in development, but you can find it by the following link.
-                        <a href="https://t.me/iasa_mate_bot"> telegram</a>
+                        <p class="info__text_dark english-content">
+                            You can find project IASA_SuggestBot by the link  
+                            <a class= "english-content" href="https://github.com/dimaplel/telegram-suggestions-bot"> GitHub</a>
+                            IASABOT is still in development, but you can find it by following the link.
+                            <a class= "english-content" href="https://t.me/iasa_mate_bot"> telegram</a>
+                        </p>
+                    </p>
+                    <p class="info__text_dark ukrainian-content">
+                        Python, PostGre, Aiogram
+                        <ul class="TEAMWORK-list ukrainian-content">
+                            <li>Розроблена структура бази даних</li>
+                            <li>Створено функцію нагадування і створення і оновлення старост груп</li>
+                            <li>Я продовжую розробку боту і системи аналітики для факультету</li>
+                        </ul>
+                        <p class="info__text_dark ukrainian-content">
+                            Проєкт IASA_SuggestBot можно знайти по посиланню 
+                            <a class= "ukrainian-content" href="https://github.com/dimaplel/telegram-suggestions-bot"> GitHub</a>
+                            IASABOT цей бот досі в розробці але його можно знайти за посиланню на телеграм.
+                            <a class= "ukrainian-content" href="https://t.me/iasa_mate_bot"> telegram</a>
+                        </p>
                     </p>
     
                 </div>
                 <div class="education">
-                    <h2 class="h2_header_education">
+                    <h2 class="h2_header_education english-content">
                         Education
                     </h2>
-                    <h3 class="Education_place">
+                    <h2 class="h2_header_education ukrainian-content">
+                        Освіта
+                    </h2>
+                    <h3 class="Education_place english-content">
                         Secondary School No. 301<br>
                     </h3>
-                    <p class="info__text">
+                    <h3 class="Education_place ukrainian-content">
+                        Специализированная школа № 301 им. Ярослава Мудрого
+                    </h3>
+                    <p class="info__text english-content">
                         Middle education
                     </p>
-                    <h3 class="Education_place">
+                    <p class="info__text ukrainian-content">
+                        Середня освіта
+                    </p>
+                    <h3 class="Education_place english-content">
                         KPI National Technical University of Ukraine<br>
                     </h3>
-                    <p class="info__text">
-                        Computer science. 3 Year Student.
+                    <h3 class="Education_place ukrainian-content">
+                        Національний технічний університет України "Київський політехнічний інститут імені Ігоря Сікорського" <br>
+                    </h3>
+                    <p class="info__text english-content">
+                        IASA Computer science. 3 Year Student.
+                    </p>
+                    <p class="info__text ukrainian-content">
+                        ІПСА копм'ютерні науки. Студент 3 курсу.
                     </p>
                 </div>
             </div>
             <div class="cv_right">
-                <h2 class="h2_header_Links">
+                <h2 class="h2_header_Links english-content">
                     Links
                 </h2>
                 <p class="iconLink">
                         <a href="https://github.com/akaspeh"> <img class="linkIcon" src="css/github.png" alt="githubicon"></a>
                         <a href="https://www.linkedin.com/in/%D0%BD%D1%96%D0%BA%D1%96%D1%82%D0%B0-%D1%80%D1%8F%D0%B1%D1%96%D0%BD-4809ba2a6/"> <img class="linkIcon" src="css/linkedin.png" alt="githubicon"></a>
                 </p>
-                <h2 class="h2_header_skills">
+                <h2 class="h2_header_skills english-content">
                     Skills
+                </h2>
+                <h2 class="h2_header_skills ukrainian-content">
+                    Навички
                 </h2>
                 <p class="info__text">
                     Python
@@ -160,16 +246,26 @@
                     <rect width="165" height="3" fill="#D9D9D9"/>
                     <rect width="70" height="3" fill="black"/>
                 </svg>
-                <h2 class="h2_header_language">
+                <h2 class="h2_header_language english-content">
                     Languages
                 </h2>
-                <p class="info__text">
+                <h2 class="h2_header_language ukrainian-content">
+                    Мови
+                </h2>
+                <p class="info__text english-content">
                     Ukrainian - Native
                 </p>
-                <p class="info__text">
+                <p class="info__text ukrainian-content">
+                   Українська - рідний
+                </p>
+                <p class="info__text english-content">
                     English - B2
                 </p>
-                <div class="print_button">
+                <p class="info__text ukrainian-content">
+                    Англійська - B2
+                </p>
+
+                <div class="buttons">
                     <button class="print_button">
                         <svg xmlns="http://www.w3.org/2000/svg" 
                         height="30" width="30" viewBox="0 0 512 512">
@@ -180,11 +276,17 @@
                         64-64V384zM432 248a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg>
                     </button>
                 </div>
+                <div class = "buttons"> 
+                    <button class = "translateButton" id="translateButton">
+                        <img src="css/ukraine.png" alt="githubicon" height="30" width="30" viewBox="0 0 512 512">
+                    </button>
+                </div>
 
             </div>
 
         </div>
     </section>
+
     <script>
         let btn = document.querySelector(".print_button")
         btn.addEventListener('click', ()=>{
@@ -192,5 +294,47 @@
         })
         
     </script>
+
+    <script>
+        document.getElementById('translateButton').onclick = function() {
+            var englishElements = document.getElementsByClassName('english-content');
+            var ukrainianElements = document.getElementsByClassName('ukrainian-content');
+            
+            for (var i = 0; i < englishElements.length; i++) {
+                englishElements[i].style.display = 'none';
+            }
+
+            for (var i = 0; i < ukrainianElements.length; i++) {
+                ukrainianElements[i].style.display = 'block';
+            }
+        };
+    </script>
 </body>
 </html>
+
+
+<script>
+    document.getElementById('translateButton').onclick = function() {
+        var englishElements = document.getElementsByClassName('english-content');
+        var ukrainianElements = document.getElementsByClassName('ukrainian-content');
+
+        var isEnglishVisible = englishElements[0].style.display !== 'none';
+
+        for (var i = 0; i < englishElements.length; i++) {
+            englishElements[i].style.display = isEnglishVisible ? 'none' : 'block';
+        }
+
+        for (var i = 0; i < ukrainianElements.length; i++) {
+            ukrainianElements[i].style.display = isEnglishVisible ? 'block' : 'none';
+        }
+        var img = this.querySelector('img');
+            if (isEnglishVisible) {
+                img.src = 'css/united-kingdom.png';
+                img.alt = 'Translate to English';
+            } else {
+                img.src = 'css/ukraine.png';
+                img.alt = 'Translate to Ukrainian';
+            }
+
+    };
+</script>
