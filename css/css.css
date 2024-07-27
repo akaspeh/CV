@@ -7,6 +7,10 @@
   font-family: Lato;
 }
 
+.cv{
+  width: 2481px; 
+  height: 3507px; 
+}
 
 .h2_header_Links, .h2_header_skills, .h2_header_expirience, .h2_header_education, .h2_header_language{
   text-decoration: underline;
@@ -42,7 +46,7 @@ body{
   display: flex;
   color:rgb(163, 163, 163);
   width: 100%; 
-  height: 40px; 
+  height: 25%; 
   border-top: 2px solid #383838; 
   padding-top: 3px; 
 }
@@ -51,6 +55,7 @@ body{
    height: 100%;
    text-align: center;
    margin-top:3px;
+   margin-bottom:3px;
 }
 
 .phone{
@@ -64,8 +69,7 @@ body{
 .div-wrapper{
   display: flex;
   width: 100%; 
-  margin-top: 20px;
-  margin-bottom: 50 px;
+  margin-top: 4%;
 }
 
 .cv_left{
@@ -80,7 +84,7 @@ body{
 .title_cv{
   background: rgb(22, 22, 22);
   width: 100%; 
-  height: 230px; 
+  height: 9%; 
 }
 
 .r_profile_pick{
@@ -103,14 +107,14 @@ body{
 }
 
 .cv_left{
-  margin-top: 60px;
+  margin-top: 7px;
   border-right: 5px solid #000; 
   padding-right: 10px; 
   width: 70%;
 }
 
 .cv_right{
-  margin-top: 60px;
+  margin-top: 11px;
   margin-left: 20px;
   width: 30%;
 }
@@ -133,14 +137,10 @@ body{
   margin-left:10px;
 }
 
-.translateButton{
-}
-
 .print_button{
-  margin-top: 100px;
+  margin-top: 40px;
   margin-left:1px;
 }
-
 
 @media print {
   .print_button {
@@ -148,9 +148,13 @@ body{
   }
 
   .translateButton {
-    display: none; /* Приховати кнопку друку на малих екранах */
+    display: none; 
   }
   
+  .downloadButton{
+    display: none;
+  }
+
   .main_class {
     position: absolute;
     left: 0;
@@ -160,6 +164,13 @@ body{
 
 @media (max-width: 570px) {
   /* Сховати елементи, які не підходять для малих екранів */
+
+  .title_cv{
+    background: rgb(22, 22, 22);
+    width: 100%; 
+    height: 5%; 
+  }
+
   .div-wrapper {
     flex-direction: column; /* Змінити напрямок flex на колонку */
   }
@@ -172,7 +183,6 @@ body{
   .cv_left{
     border-right: 0px solid #fcfcfc; 
     padding-right: 10px; 
-    margin-left:20px;
   }
 
   .cv_left, .cv_right {
